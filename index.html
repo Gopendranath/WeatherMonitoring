@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <!-- <li><a href="#about">About</a></li> -->
+      <li><a href="https://forms.gle/LZYzH1XGGGMFoz2HA">Contact</a></li>
+    </ul>
+    <img src="Future.jpeg" alt="Logo" class="logo">
+  </nav>
+  <!-- partial:index.partial.html -->
+  <div class="scrollable-table">
+    <table>
+      <thead>
+        <tr>
+          <td>INDEX</td>
+          <td>DATE and TIME</td>
+          <td>RAINFALL</td>
+          <td>LDR</td>
+          <td>TEMPERATURE(C)</td>
+          <td>HUMIDITY(%)</td>
+          <td>PRESSURE(pa)</td>
+          <td>ALTITUDE</td>
+        </tr>
+      </thead>
+      <tbody data-sheetdb-url="https://sheetdb.io/api/v1/9lh0a1lob0uhw" data-sheetdb-sort-order="desc">
+        <tr>
+          <td>{{INDEX}}</td>
+          <td>{{DATE and TIME}}</td>
+          <td>{{RAINFALL}}</td>
+          <td>{{LDR}}</td>
+          <td>{{TEMPERATURE(C)}}</td>
+          <td>{{HUMIDITY(%)}}</td>
+          <td>{{PRESSURE(pa)}}</td>
+          <td>{{ALTITUDE}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <p>2024 © Weather Monitoring</p>
+  </footer>
+  <!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>
+    $(document).ready(function () {
+      // Initially hide all rows except the first 10
+      $("#myTable tbody tr").hide();
+      $("#myTable tbody tr:lt(10)").show();
+
+      // Attach a scroll event to the table
+      $("#myTable").scroll(function () {
+        // Check if the user has scrolled to the bottom
+        if ($(this).scrollTop() + $(this).innerHeight() >= this.scrollHeight) {
+          // Show the next 10 rows
+          $("#myTable tbody tr:visible:last").nextAll(":lt(10)").show();
+        }
+      });
+    });
+  </script>
+  <script src="https://sheetdb.io/handlebars.js"></script>
+
+</body>
+
+</html>

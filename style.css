@@ -1,0 +1,85 @@
+table {
+    font-family: 'Arial';
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #00cccc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  }
+  table tr:hover {
+    background: #f4f4f4;
+  }
+  table tr:hover td {
+    color: #555;
+  }
+  table th, table td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+  }
+  table th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  table th.last {
+    border-right: none;
+  }
+  
+  #myTable {
+      height: 600px; /* Adjust as needed */
+      overflow-y: auto;
+  }
+
+  .scrollable-table {
+    height: 600px; /* Adjust this value based on the height of your rows */
+    overflow-y: auto;
+  }
+
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #111;
+  }
+
+  .logo {
+    float: right;
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px;
+    margin-top: 5px; /* Adjust as needed */
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
