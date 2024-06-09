@@ -1,4 +1,4 @@
-#problems solving
+# problems solving
 Remote area weather monitoring
 we don't have to rellay in other's weather monitoring system
 detailed weather analysis of a perticular altitude
@@ -16,5 +16,5 @@ After saving the data we will show table in website to access anywhere in the wo
 We can get the data from the sheet by using the sheet id. After getting all the data we use pandas library for processing and plotting the data.
 by this we can get the detailed analysis of the weather
 
-#future Scope
+# future Scope
 we can use machine learning for weather forcasting. we can use solar to power the modules.
