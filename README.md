@@ -22,6 +22,10 @@ This project provides real-time weather data from remote areas without relying o
 - **ESP32**: Hosts a local web server and processes data.
 - **Google Sheets**: Stores data for further analysis.
 
+### Sending part
+![ArduinoUno connection](ArduinoUnoSender.png)
+*ArduinoUno connection with other components*
+
 ### Data Flow
 
 1. **Data Collection**: Arduino Uno collects weather data from sensors.
@@ -40,12 +44,20 @@ This project provides real-time weather data from remote areas without relying o
 - Weather sensors (e.g., temperature, humidity, pressure sensors)
 - Jumper wires and breadboard
 
-### Installation Steps
+## Installation Steps
 
 1. **Hardware Setup**:
    - Connect the LoRa module to the Arduino Uno.
    - Connect sensors to the Arduino Uno.
    - Set up the ESP32 for hosting a web server.
+
+### Sending part
+![ArduinoUno connection](ArduinoUnoSender.png)
+*ArduinoUno connection with other components*
+
+### Receiving part
+![ESP32 connection](ESP32Reciver.png)
+*ESP32 connection with other components*
 
 2. **Software Installation**:
    - Install the Arduino IDE.
