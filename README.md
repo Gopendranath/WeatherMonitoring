@@ -4,6 +4,10 @@
 
 This project provides real-time weather data from remote areas without relying on external weather monitoring systems. It focuses on detailed weather analysis at specific altitudes, utilizing the LoRa 433MHz module for communication.
 
+### Overview
+![AI Img](AIimg.png)
+*Basic understanding*
+
 ## Features
 
 - **Real-Time Data Collection**: Monitors weather data such as temperature, humidity, pressure, and altitude.
@@ -21,10 +25,6 @@ This project provides real-time weather data from remote areas without relying o
 - **LoRa 433MHz Module**: Facilitates long-range communication.
 - **ESP32**: Hosts a local web server and processes data.
 - **Google Sheets**: Stores data for further analysis.
-
-### Sending part
-![ArduinoUno connection](ArduinoUnoSender.png)
-*ArduinoUno connection with other components*
 
 ### Data Flow
 
