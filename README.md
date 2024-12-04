@@ -4,7 +4,6 @@
 
 This project provides real-time weather data from remote areas without relying on external weather monitoring systems. It focuses on detailed weather analysis at specific altitudes, utilizing the LoRa 433MHz module for communication.
 
-### Overview
 ![AI Img](AIimg.png)
 *Basic understanding*
 
@@ -74,6 +73,10 @@ This project provides real-time weather data from remote areas without relying o
 
 5. **Access the Web Interface**:
    - Open the web browser and access the local server address to view real-time weather data.
+
+### LoRa working
+![Lora connection](Untitled Diagram (1).png)
+*pear to pear connection*
 
 ## Data Processing and Visualization
 
