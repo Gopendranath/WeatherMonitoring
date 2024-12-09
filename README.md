@@ -33,6 +33,9 @@ This project provides real-time weather data from remote areas without relying o
 4. **Data Retrieval**: Data is fetched from Google Sheets using the SheetDB API for display on the website.
 5. **Data Processing**: Data can be analyzed locally or in the cloud using the Pandas library.
 
+![See Live here from the google sheet database](https://final-year-project-website-r4pfuwje3-babanroys-projects.vercel.app/)
+*realtime visulization for the website*
+
 ## Setup Instructions
 
 ### Required Components
